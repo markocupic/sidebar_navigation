@@ -1,0 +1,18 @@
+<!-- indexer::stop -->
+<?php $GLOBALS['TL_CSS'][] = 'system/modules/assets/sidebar_navigation/css/sidebar_navigation.css|static'; ?>
+<?php $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/assets/sidebar_navigation/js/sidebar_navigation.js|static'; ?>
+
+<nav class="<?= $this->class ?> sidebar-navigation block"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
+
+        <?php if ($this->headline): ?>
+            <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+        <?php endif; ?>
+
+    <a href="<?= $this->request ?>#<?= $this->skipId ?>" class="invisible"><?= $this->skipNavigation ?></a>
+
+        <?= $this->items ?>
+
+    <a id="<?= $this->skipId ?>" class="invisible">&nbsp;</a>
+
+</nav>
+<!-- indexer::continue -->
