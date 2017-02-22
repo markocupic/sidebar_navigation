@@ -1,6 +1,6 @@
 {
   "name": "markocupic/sidebar-navigation",
-  "description": "Template for dropdown multilevel sidebar navigation",
+  "description": "Template for drop-down multilevel sidebar navigation",
   "keywords": [
     "contao",
     "navigation",
@@ -41,7 +41,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "": "system/modules/sidebar-navigation"
+        "": "system/modules/sidebar_navigation" 
       }
     }
   }
