@@ -77,7 +77,7 @@
 }
 .sidebar-navigation ul.level_1 li.submenu > .toggle-submenu:before {
     font-family: FontAwesome;
-    color: #fff;
+    color: #ddd;
     content: "\f067";
     font-size: 12px;
     font-style: normal;

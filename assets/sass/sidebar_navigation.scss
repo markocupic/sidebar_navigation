@@ -106,7 +106,7 @@ $level-4-offset: 66px;
 
       > .toggle-submenu:before {
         font-family: FontAwesome;
-        color: #fff;
+        color: $nav-font-color;
         content: "\f067";
         font-size: 12px;
         font-style: normal;
