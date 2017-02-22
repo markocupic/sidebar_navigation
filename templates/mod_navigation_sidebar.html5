@@ -1,6 +1,6 @@
 <!-- indexer::stop -->
-<?php $GLOBALS['TL_CSS'][] = 'system/modules/assets/sidebar_navigation/css/sidebar_navigation.css|static'; ?>
-<?php $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/assets/sidebar_navigation/js/sidebar_navigation.js|static'; ?>
+<?php $GLOBALS['TL_CSS'][] = 'system/modules/sidebar_navigation/assets/css/sidebar_navigation.css|static'; ?>
+<?php $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/sidebar_navigation/assets/js/sidebar_navigation.js|static'; ?>
 
 <nav class="<?= $this->class ?> sidebar-navigation block"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
 
