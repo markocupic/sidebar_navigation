@@ -1,5 +1,5 @@
-# Contao Database Backup
+# Contao sidebar navigation
 
-## Tägliches Datenbank-Backup für das Contao CMS
+## Template for the Contao Navigation Module
 
-Dieses Modul erzeugt täglich ein Datenbankbackup Ihrer Contao-Datenbank und speichert dieses als SQL-Dump im Dateisystem ab.
+This module contains the template and the css/sass/js source for a dropable sidebar navigation.
