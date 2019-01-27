@@ -23,8 +23,7 @@
     "source": "https://github.com/markocupic/sidebar-navigation"
   },
   "require": {
-    "php": ">7.0",
-    "contao/core-bundle": "^4.3, <5",
+    "contao/core-bundle": ">4.3, <5",
   },
   "replace": {
     "contao-legacy/sidebar-navigation": "*"
