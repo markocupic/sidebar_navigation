@@ -100,12 +100,12 @@
 .sidebar-navigation ul.level_1 > li > .toggle-submenu {
     right: 0;
 }
-.sidebar-navigation ul.level_1 > li > a, .sidebar-navigation ul.level_1 > li span {
+.sidebar-navigation ul.level_1 > li > a, .sidebar-navigation ul.level_1 > li strong {
     padding-left: 42px;
     font-size: 16px;
     color: #ddd;
 }
-.sidebar-navigation ul.level_1 > li span.active {
+.sidebar-navigation ul.level_1 > li strong.active {
     color: #FD7F01 !important;
 }
 .sidebar-navigation ul.level_2 {
@@ -119,12 +119,12 @@
 .sidebar-navigation ul.level_2 > li > .toggle-submenu {
     right: 0;
 }
-.sidebar-navigation ul.level_2 > li > a, .sidebar-navigation ul.level_2 > li span {
+.sidebar-navigation ul.level_2 > li > a, .sidebar-navigation ul.level_2 > li strong {
     padding-left: 50px;
     font-size: 13px;
     color: #ddd;
 }
-.sidebar-navigation ul.level_2 > li span.active {
+.sidebar-navigation ul.level_2 > li strong.active {
     color: #FD7F01 !important;
 }
 .sidebar-navigation ul.level_3 > li {
@@ -135,12 +135,12 @@
 .sidebar-navigation ul.level_3 > li > .toggle-submenu {
     right: 0;
 }
-.sidebar-navigation ul.level_3 > li > a, .sidebar-navigation ul.level_3 > li span {
+.sidebar-navigation ul.level_3 > li > a, .sidebar-navigation ul.level_3 > li strong {
     padding-left: 58px;
     font-size: 13px;
     color: #ddd;
 }
-.sidebar-navigation ul.level_3 > li span.active {
+.sidebar-navigation ul.level_3 > li strong.active {
     color: #FD7F01 !important;
 }
 .sidebar-navigation ul.level_4 > li {
@@ -151,12 +151,12 @@
 .sidebar-navigation ul.level_4 > li > .toggle-submenu {
     right: 0;
 }
-.sidebar-navigation ul.level_4 > li > a, .sidebar-navigation ul.level_4 > li span {
+.sidebar-navigation ul.level_4 > li > a, .sidebar-navigation ul.level_4 > li strong {
     padding-left: 66px;
     font-size: 13px;
     color: #ddd;
 }
-.sidebar-navigation ul.level_4 > li span.active {
+.sidebar-navigation ul.level_4 > li strong.active {
     color: #FD7F01 !important;
 }
 .sidebar-navigation ul.level_1 li.trail > ul {
