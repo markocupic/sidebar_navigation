@@ -85,10 +85,10 @@
 .sidebar-navigation ul.level_1 li.submenu > .toggle-submenu:hover:before {
     color: #FF7F00;
 }
-.sidebar-navigation ul.level_1 li.submenu.expanded > .toggle-submenu {
+.sidebar-navigation ul.level_1 li.submenu.opened > .toggle-submenu {
     background-color: transparent;
 }
-.sidebar-navigation ul.level_1 li.submenu.expanded > .toggle-submenu:before {
+.sidebar-navigation ul.level_1 li.submenu.opened > .toggle-submenu:before {
     content: "\f068";
     color: #FF7F00;
 }
