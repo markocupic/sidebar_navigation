@@ -6,6 +6,8 @@ $level-2-offset: 50px;
 $level-3-offset: 58px;
 $level-4-offset: 66px;
 
+$icon_font_name: 'Font Awesome 5 Free';
+
 .sidebar-navigation {
   padding: 15px 0;
   margin: 40px 0 0 0;
@@ -25,14 +27,14 @@ $level-4-offset: 66px;
     padding: 0;
     overflow: hidden;
     > a,
-    > span {
+    > strong {
       color: $nav-font-color !important;
     }
-    > span.active {
+    > strong.active {
       color: #FD7F01 !important;
     }
     &:hover {
-      > a, > span {
+      > a, > strong {
         color: #FD7F01 !important;
       }
     }
@@ -50,16 +52,16 @@ $level-4-offset: 66px;
   ul.level_1 {
 
     > li:before {
-      font-family: FontAwesome;
+      font-family: $icon_font_name;
       position: absolute;
       top: 0;
       left: 16px;
       color: $nav-font-color;
     }
-    > li.picture-o:before {
-      content: "\f03e";
+    > li.image:before {
+      content: "\f302";
     }
-    > li.newspaper-o:before {
+    > li.newspaper:before {
       content: "\f1ea";
     }
     > li.users:before {
@@ -70,9 +72,6 @@ $level-4-offset: 66px;
     }
     > li.wrench:before {
       content: "\f0ad";
-    }
-    > li.newspaper-o:before {
-      content: "\f1ea ";
     }
     > li.cogs:before {
       content: "\f085";
@@ -127,7 +126,6 @@ $level-4-offset: 66px;
     }
   }
 
-
   // Level 1
   ul.level_1 {
     > li {
@@ -137,12 +135,12 @@ $level-4-offset: 66px;
       > .toggle-submenu {
         right: 0;
       }
-      > a, span {
+      > a, strong {
         padding-left: $level-1-offset;
         font-size: 16px;
         color: $nav-font-color;
       }
-      span.active {
+      strong.active {
         color: #FD7F01 !important;
       }
     }
@@ -157,12 +155,12 @@ $level-4-offset: 66px;
       > .toggle-submenu {
         right: 0;
       }
-      > a, span {
+      > a, strong {
         padding-left: $level-2-offset;
         font-size: 13px;
         color: $nav-font-color;
       }
-      span.active {
+      strong.active {
         color: #FD7F01 !important;
       }
     }
@@ -176,12 +174,12 @@ $level-4-offset: 66px;
       > .toggle-submenu {
         right: 0;
       }
-      > a, span {
+      > a, strong {
         padding-left: $level-3-offset;
         font-size: 13px;
         color: $nav-font-color;
       }
-      span.active {
+      strong.active {
         color: #FD7F01 !important;
       }
     }
@@ -195,12 +193,12 @@ $level-4-offset: 66px;
       > .toggle-submenu {
         right: 0;
       }
-      > a, span {
+      > a, strong {
         padding-left: $level-4-offset;
         font-size: 13px;
         color: $nav-font-color;
       }
-      span.active {
+      strong.active {
         color: #FD7F01 !important;
       }
     }

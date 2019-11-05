@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .sidebar-navigation {
     padding: 15px 0;
     margin: 40px 0 0 0;
@@ -19,13 +20,13 @@
     overflow: hidden;
 }
 .sidebar-navigation li > a,
-.sidebar-navigation li > span {
+.sidebar-navigation li > strong {
     color: #ddd !important;
 }
-.sidebar-navigation li > span.active {
+.sidebar-navigation li > strong.active {
     color: #FD7F01 !important;
 }
-.sidebar-navigation li:hover > a, .sidebar-navigation li:hover > span {
+.sidebar-navigation li:hover > a, .sidebar-navigation li:hover > strong {
     color: #FD7F01 !important;
 }
 .sidebar-navigation ul.level_1 {
@@ -35,35 +36,32 @@
     display: none;
 }
 .sidebar-navigation ul.level_1 > li:before {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     position: absolute;
     top: 0;
     left: 16px;
     color: #ddd;
 }
-.sidebar-navigation ul.level_1 > li.picture-o:before {
-    content: "\f03e";
+.sidebar-navigation ul.level_1 > li.image:before {
+    content: "";
 }
-.sidebar-navigation ul.level_1 > li.newspaper-o:before {
-    content: "\f1ea";
+.sidebar-navigation ul.level_1 > li.newspaper:before {
+    content: "";
 }
 .sidebar-navigation ul.level_1 > li.users:before {
-    content: "\f0c0";
+    content: "";
 }
 .sidebar-navigation ul.level_1 > li.bolt:before {
-    content: "\f0e7";
+    content: "";
 }
 .sidebar-navigation ul.level_1 > li.wrench:before {
-    content: "\f0ad";
-}
-.sidebar-navigation ul.level_1 > li.newspaper-o:before {
-    content: "\f1ea ";
+    content: "";
 }
 .sidebar-navigation ul.level_1 > li.cogs:before {
-    content: "\f085";
+    content: "";
 }
 .sidebar-navigation ul.level_1 > li.flask:before {
-    content: "\f0c3";
+    content: "";
 }
 .sidebar-navigation ul.level_1 li.submenu > .toggle-submenu {
     font-size: 16px;
@@ -78,18 +76,18 @@
 .sidebar-navigation ul.level_1 li.submenu > .toggle-submenu:before {
     font-family: FontAwesome;
     color: #fff;
-    content: "\f067";
+    content: "";
     font-size: 12px;
     font-style: normal;
 }
 .sidebar-navigation ul.level_1 li.submenu > .toggle-submenu:hover:before {
     color: #FF7F00;
 }
-.sidebar-navigation ul.level_1 li.submenu.opened > .toggle-submenu {
+.sidebar-navigation ul.level_1 li.submenu.expanded > .toggle-submenu {
     background-color: transparent;
 }
-.sidebar-navigation ul.level_1 li.submenu.opened > .toggle-submenu:before {
-    content: "\f068";
+.sidebar-navigation ul.level_1 li.submenu.expanded > .toggle-submenu:before {
+    content: "";
     color: #FF7F00;
 }
 .sidebar-navigation ul.level_1 > li {
