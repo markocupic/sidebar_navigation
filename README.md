@@ -1,3 +1,6 @@
+### No more supported
+Use [markocupic/contao-sidebar-navigation)(https://github.com/markocupic/contao-sidebar-navigation) instead.
+
 # Contao multilevel drop-down sidebar navigation
 
 ## Template for the Contao Navigation Module
