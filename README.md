@@ -1,4 +1,4 @@
-### No more supported
+### [no-longer-maintained]
 Use [markocupic/contao-sidebar-navigation)(https://github.com/markocupic/contao-sidebar-navigation) instead.
 
 # Contao multilevel drop-down sidebar navigation
